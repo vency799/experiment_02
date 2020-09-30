@@ -34,7 +34,7 @@
 	</LinearLayout>
 </LinearLayout>
 ```
-
+(用到了4个子标签<LinearLayout>)
 运行结果：
 
 ![image](https://github.com/vency799/experiment_02/blob/master/lineartest.png)
