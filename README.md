@@ -31,7 +31,7 @@
 ...
 ```
 
-设置两个<LinearLayout>，第一个<LinearLayout>作为父标签，第二个<LinearLayout>作为子标签，子标签在父标签内。父标签设置为垂直布局，子标签设置为水平布局。结构如下：
+设置两个 LinearLayout ，第一个 LinearLayout 作为父标签，第二个 LinearLayout 作为子标签，子标签在父标签内。父标签设置为垂直布局，子标签设置为水平布局。结构如下：
 
 ```
 <LinearLayout ...>
@@ -41,7 +41,7 @@
 </LinearLayout>
 ```
 
-(用到了4个<LinearLayout>子标签)
+(用到了4个 LinearLayout 子标签)
 
 strings配置：
 
@@ -374,11 +374,11 @@ strings配置：
 
 关于边框颜色设置：
 
-在Import、Export两行处，上下各有颜色较背景颜色浅色的横条，实现方法是：Import的<TableRow>设置paddingTop=10dp，Export的<TableRow>设置paddingBottom=10dp
+在Import、Export两行处，上下各有颜色较背景颜色浅色的横条，实现方法是：Import的 TableRow 设置paddingTop=10dp，Export的 TableRow 设置paddingBottom=10dp
 
 ![image](https://github.com/vency799/experiment_02/blob/master/padding_setting.png)
 
-设置<TextView>的背景颜色与窗口背景颜色一致(#6C6A6A)，所以Import<TableRow>上方有10dp的空余区域，Export<TableRow>下方有10dp的空余区域，将两个<TableRow>的背景颜色设置为浅一点的颜色(#ACA8A8)，完成。
+设置 TextView 的背景颜色与窗口背景颜色一致(#6C6A6A)，所以Import TableRow 上方有10dp的空余区域，Export TableRow 下方有10dp的空余区域，将两个 TableRow 的背景颜色设置为浅一点的颜色(#ACA8A8)，完成。
 
 ![image](https://github.com/vency799/experiment_02/blob/master/edge_color.png)
 
