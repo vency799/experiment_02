@@ -46,7 +46,7 @@
 strings配置：
 
 ```
- 	<string name="button1">One,One</string>
+    <string name="button1">One,One</string>
     <string name="button2">One,Two</string>
     <string name="button3">One,Three</string>
     <string name="button4">One,Four</string>
