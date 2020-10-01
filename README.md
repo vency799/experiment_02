@@ -40,7 +40,7 @@
 string内定义的button：
 
 ```
-    <string name="button1">One,One</string>
+ 	<string name="button1">One,One</string>
     <string name="button2">One,Two</string>
     <string name="button3">One,Three</string>
     <string name="button4">One,Four</string>
@@ -64,3 +64,5 @@ string内定义的button：
 运行结果：
 
 ![image](https://github.com/vency799/experiment_02/blob/master/lineartest.png)
+
+![image](https://github.com/vency799/experiment_02/blob/master/phonepage.png)
