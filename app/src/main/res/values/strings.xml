@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">hello</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string name="button1">One,One</string>
+    <string name="button2">One,Two</string>
+    <string name="button3">One,Three</string>
+    <string name="button4">One,Four</string>
+
+    <string name="button5">Two,One</string>
+    <string name="button6">Two,Two</string>
+    <string name="button7">Two,Three</string>
+    <string name="button8">Two,Four</string>
+
+    <string name="button9">Three,One</string>
+    <string name="button10">Three,Two</string>
+    <string name="button11">Three,Three</string>
+    <string name="button12">Three,Four</string>
+
+    <string name="button13">Four,One</string>
+    <string name="button14">Four,Two</string>
+    <string name="button15">Four,Three</string>
+    <string name="button16">Four,Four</string>
+
+    <string name="button_red">RED</string>
+    <string name="button_orange">ORANGE</string>
+    <string name="button_yellow">YELLOW</string>
+    <string name="button_blue">BLUE</string>
+    <string name="button_green">GREEN</string>
+    <string name="button_indigo">INDIGO</string>
+    <string name="button_violet">VIOLET</string>
+
+    <string name="open">&#32;&#32;&#32;&#32;Open...</string>
+    <string name="cto">Ctrl+O</string>
+    <string name="save">&#32;&#32;&#32;&#32;Save...</string>
+    <string name="cts">Ctrl+S</string>
+    <string name="save_as">&#32;&#32;&#32;&#32;Save As...</string>
+    <string name="ctfs">Ctrl+Shift+S</string>
+    <string name="imp">× Import...</string>
+    <string name="emp">× Export...</string>
+    <string name="cte">Ctrl+E</string>
+    <string name="quit">&#32;&#32;&#32;&#32;Quit</string>
+</resources>
