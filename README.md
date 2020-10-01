@@ -10,24 +10,24 @@
 
 代码：
 
-> ```
-> <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
->  android:orientation="vertical" android:layout_width="match_parent"
->  android:layout_height="match_parent"
->  >
->  <!--父标签设置为垂直布局-->
->  <LinearLayout
->      android:layout_width="match_parent"
->      android:layout_height="wrap_content"
->      android:orientation="horizontal">
->      <!--子标签设置为水平布局-->
->      <Button
->          android:id="@+id/button1"
->          android:layout_width="wrap_content"
->          android:layout_height="wrap_content"
->          android:text="@string/button1" />
-> ...
-> ```
+```
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ android:orientation="vertical" android:layout_width="match_parent"
+ android:layout_height="match_parent"
+ >
+ <!--父标签设置为垂直布局-->
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:orientation="horizontal">
+     <!--子标签设置为水平布局-->
+     <Button
+         android:id="@+id/button1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="@string/button1" />
+...
+```
 
 设置两个<LinearLayout>，第一个<LinearLayout>作为父标签，第二个<LinearLayout>作为子标签，子标签在父标签内。父标签设置为垂直布局，子标签设置为水平布局。结构如下：
 
@@ -163,7 +163,7 @@ string内定义的button：
 </android.support.constraint.ConstraintLayout>
 ```
 
-代码中的“toStratof"、”toEndof“、”toTopof“等都为约束布局的条件，由”app“控制。
+代码中的“toStartof"、”toEndof“、”toTopof“等都为约束布局的条件，由”app“控制。
 
 RED、YELLOW按钮：
 
@@ -181,7 +181,7 @@ ORANGE按钮添加两个水平约束和一个垂直约束，达到水平居中�
 
 ![image](https://github.com/vency799/experiment_02/blob/master/button_orange.png)
 
-BLUE按钮
+BLUE按钮：
 
 BLUE按钮添加两个水平约束和两个垂直约束。
 
@@ -204,4 +204,3 @@ VIOLET按钮添加两个水平约束和两个垂直约束，个方向约束连�
 运行结果：
 
 ![image](https://github.com/vency799/experiment_02/blob/master/result_constr.png)
-
